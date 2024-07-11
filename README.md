@@ -66,7 +66,7 @@ task.
 
    ```sh
     ./gradlew :shared:build
-    ```
+   ```
    
 3. **运行 Android 应用**:
 
@@ -92,7 +92,7 @@ task.
 
 ## 贡献
 
-欢迎贡献代码和提出建议！请先阅读 CONTRIBUTING.md 了解详情。
+欢迎贡献代码和提出建议！请先阅读 [CONTRIBUTING.md](./CONTRIBUTING.md) 了解详情。
 
 ## 许可证
 
