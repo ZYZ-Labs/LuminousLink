@@ -16,7 +16,9 @@ kotlin = "2.0.0"
 ktor = "2.3.12"
 logback = "1.5.6"
 
-sik_extension = "1.0.71"
+sik_extension = "1.0.74"
+sik_camera = "1.0.3"
+sik_compose_hub = "1.0.4"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -35,6 +37,8 @@ ktor-server-netty = { module = "io.ktor:ktor-server-netty-jvm", version.ref = "k
 ktor-server-tests = { module = "io.ktor:ktor-server-tests-jvm", version.ref = "ktor" }
 
 sik-extension = { module = "com.github.SilverIceKey:SIKExtension", version.ref = "sik_extension" }
+sik-camera = { module = "com.github.SilverIceKey:SIKCamera", version.ref = "sik_camera" }
+sik-compose-hub = { module = "com.github.SilverIceKey:SIKComposeHub", version.ref = "sik_compose_hub" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

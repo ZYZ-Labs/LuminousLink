@@ -59,6 +59,8 @@ kotlin {
             implementation(libs.androidx.material)
             implementation(libs.androidx.appcompat)
             implementation(libs.sik.extension)
+            implementation(libs.sik.camera)
+            implementation(libs.sik.compose.hub)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
